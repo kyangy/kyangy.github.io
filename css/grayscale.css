@@ -202,6 +202,7 @@ a:focus {
     outline: 0;
     color: #fff;
     background: rgba(255,255,255,.1);
+    transform: rotate(360deg);
 }
 
 .btn-circle i.animated {
@@ -299,17 +300,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid tomato;
+    color: tomato;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid tomato;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: tomato;
 }
 
 ul.banner-social-buttons {
@@ -364,4 +365,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.email {
+    color: tomato;
 }
